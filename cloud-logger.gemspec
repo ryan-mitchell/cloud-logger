@@ -23,9 +23,14 @@ Gem::Specification.new do |s|
     "LICENSE.txt",
     "README.rdoc",
     "Rakefile",
-    "lib/ruby_loggly.rb",
-    "ruby_loggly.gemspec",
-    "spec/ruby_loggly_spec.rb",
+    "cloud-logger.gemspec",
+    "lib/base.rb",
+    "lib/cloud-logger.rb",
+    "lib/event.rb",
+    "lib/loggly.rb",
+    "lib/papertrail.rb",
+    "spec/loggly_spec.rb",
+    "spec/papertrail_spec.rb",
     "spec/spec_helper.rb"
   ]
   s.homepage = "http://github.com/ryan-mitchell/cloud-logger"
