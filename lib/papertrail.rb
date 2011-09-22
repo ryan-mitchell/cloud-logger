@@ -1,6 +1,6 @@
 module CloudLogger
 
-  class Papertrail
+  class Papertrail < Base
 
     def initialize(options)
       @user = options[:user]

@@ -1,6 +1,6 @@
 module CloudLogger
   
-  class Loggly
+  class Loggly < Base
 
     # a json object with a data property which is an array with zero or more elements
     #ResponseMatcher = /\{\s*"data": \[\s*(\{.*?\})*\s*\]/m
